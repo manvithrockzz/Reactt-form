@@ -1,0 +1,69 @@
+
+import React from "react"
+import "./Right.css"
+
+function RightComponenet(){
+   
+    return(
+
+
+
+        <div className="Container">
+
+        <button style={{width:"390px", height:"55px", color:"white",fontSize:"17px"}} className="submit">Try it free 7 days then ₹180/mo. thereafter</button>
+
+
+            
+           
+
+            <form>
+            
+                
+                <div className="label">
+                    <label></label>
+                    <input type="text" name="username" placeholder="Enter Your Name" style={{height:"30px"}}/>
+
+                </div>
+
+                <div className="label">
+                    <label></label>
+                    <input type="text" name="Email" placeholder="Enter your email id" style={{height:"30px"}}/>
+
+                </div>
+                <div className="label">
+                    <label></label>
+                    <input type="text" name="password" placeholder="Password" style={{height:"30px"}}/>
+
+                </div>
+
+
+
+                
+                <div className="label">
+                    <label></label>
+                    <input type="text" name="password" placeholder="Choose your Skills" style={{height:"60px"}}/>
+
+                </div>
+
+                <button style={{color:"white"}} className="submitbutton">CLAIM YOUR FREE TRAIL</button>
+                <p> By clicking the button you are agreeing to our <span className="footertext">Terms and Services</span></p>
+
+
+
+
+            </form>
+
+        </div>
+
+        
+
+
+    )
+
+
+}
+
+
+
+
+export default RightComponenet ;
